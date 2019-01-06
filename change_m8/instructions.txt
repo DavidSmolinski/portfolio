@@ -1,0 +1,52 @@
+Programmer: David Smolinski
+
+What the program does: 
+This edits CNC mill g code for coolant. The user inputs a Z value for coolant on (M08) and a Z value for coolant off (M09). For every tool, it makes the coolant turn on and off at those Z planes. It adds M08 and M09 if its missing for any tool, and deletes all other occurrences of  M08 or M09. It edits multiple g code files.
+
+
+Requirements for the files to edit (inputs):
+Inputs must have standard mill g code, not have “;” at the ends of lines, and be .txt files. Z and M08 are put on the G43 line, and Z and M09 are put on the line before the G28 line. This means that inputs must have these G43 and G28 lines. Because of regular expressions, different word types are fine. M08 and m8 both work.
+
+Example 1:
+
+Input:
+Code
+G43 H01 Z2.0 M08
+More code
+Z2.0 M09 
+G28 G91 Z0
+More code
+
+Output:
+Code
+G43 H01 Z4.0 M08
+More code
+Z4.0 M09  
+G28 G91 Z0 
+More code
+
+Example 2:
+
+Input:
+Code
+G43 H01 Z4.0
+More code
+Z4.0  
+G28 G91 Z0 
+More code
+
+Output:
+Code
+G43 H01 Z2.0 M08
+More code
+Z4.0  
+Z2.0 M09
+G28 G91 Z0
+More code
+
+Instructions:
+1. File inputs must meet the above requirements.
+2. The folders and files in the change_m8 folder must not change location, but files in subfolders of change_m8 can.
+3. Place the files to edit in the “to_change” folder. 
+4. Double click on coolant.exe. Follow prompts.
+5. Get the edited files from the “changed” folder.

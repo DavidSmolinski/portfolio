@@ -1,0 +1,74 @@
+%
+O00666 
+(nick key holder part 1)
+(stock = .75X2X3.6 minimum)
+(x datum = left side of vice)
+(y datum = upper side of part towards + y)
+(The finished left side will be at -.75 x.)
+(This program cuts the outside radii for 1 side.)
+(T1 = .5 endmill)
+G00 G17 G20 G40 G49 G54 G80 G90 G98 
+T1 M06 
+X-.51 Y-2.35 S3500 M03 
+G43 H01 Z2.0 M08   
+Z0.1  
+G01 F35.Z-.154
+G41 Y-2.01 D01
+G2X-.76Y-1.76J.25
+G1Y-.24
+G2X-.51Y.01I.25
+G1G40Y.35
+G0Z.1
+Y-2.35
+G01 Z-.308
+G41 Y-2.01 D01
+G2X-.76Y-1.76J.25
+G1Y-.24
+G2X-.51Y.01I.25
+G1G40Y.35
+G0Z.1
+Y-2.35
+G01 Z-.462
+G41 Y-2.01 D01
+G2X-.76Y-1.76J.25
+G1Y-.24
+G2X-.51Y.01I.25
+G1G40Y.35
+G0Z.1
+Y-2.35
+G01 Z-.616
+G41 Y-2.01 D01
+G2X-.76Y-1.76J.25
+G1Y-.24
+G2X-.51Y.01I.25
+G1G40Y.35
+G0Z.1
+Y-2.35
+G01 Z-.77
+G41 Y-2.01 D01
+G2X-.76Y-1.76J.25
+G1Y-.24
+G2X-.51Y.01I.25
+G1G40Y.35
+G0Z.1
+Y-2.35
+G01 Z-.77
+G41 Y-2.01 D01
+G2X-.76Y-1.76J.25
+G1Y-.24
+G2X-.51Y.01I.25
+G1G40Y.35
+G0Z.1
+X-.5Y-2.35
+G01 Z-.77
+G41 Y-2.0 D01
+G2X-.75Y-1.75J.25
+G1Y-.25
+G2X-.5Y.0I.25
+G1G40Y.35
+G00 Z2. 
+Z2.0 M09
+G28 G91 Z0 
+G90
+M30
+%
