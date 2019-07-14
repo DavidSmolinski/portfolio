@@ -5,6 +5,10 @@ query_number = 1
 
 
 def print_column_names(connection, table):
+    """
+    :param connection: made with sqlite3.connect
+    :param table: the database table
+    """
     print('column names')
     c = connection.cursor()
     c.execute("""PRAGMA table_info(""" + table + ")")
@@ -17,6 +21,12 @@ print_column_names(connection, "clients")
 
 
 def query(connection, query_number, sql_code):
+    """ prints query
+    :param connection:
+    :param query_number:
+    :param sql_code:
+    :return: query_number += 1
+    """
     print("\nquery " + str(query_number))
     query_number += 1
 
