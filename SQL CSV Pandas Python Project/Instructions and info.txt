@@ -3,7 +3,7 @@ By David Smolinski
 
 Purpose: 
 1. To convert data to and from these forms: SQL, CSV, Pandas
-2. Use a variety of sql commands.
+2. Use a variety of sql commands in Python.
 
 Resources needed:
 1. Python 3 (3.6 used)
