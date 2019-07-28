@@ -21,12 +21,13 @@ new_df_size = df.memory_usage(deep=True).sum()
 print(f'\nmemory saved: {old_df_size - new_df_size} B\n')
 print(df.head(2))
 
-# Education vs Balance bar graph
-plt.xlabel('education')
-plt.ylabel(r'account balance ($)')
-plt.title('Education vs Account Balance')
-plt.bar(df.education, df.balance)
-plt.savefig('ed bal.png')
+
+# Education levels for technicians pie chart
+df[df.job=='technician'].groupby('education').education.count().plot(kind='pie')
+plt.title('Relative Education Levels of Technicians')
+plt.ylabel('')
+plt.tight_layout()
+plt.savefig('ed of tech.png')
 # plt.show()
 
 
@@ -90,4 +91,13 @@ ax2.set_xlabel('education')
 ax2.set_ylabel('account balance ($)')
 ax2.set_title('Unknown Education vs Account Balance')
 fig2.savefig('unk ed bal.png')
+# plt.show()
+
+# Education vs Balance bar graph
+fig3, ax3 = plt.subplots()
+ax3.bar(df.education, df.balance)
+ax3.set_xlabel('education')
+ax3.set_ylabel('account balance ($)')
+ax3.set_title('Education vs Account Balance')
+fig3.savefig('ed bal.png')
 # plt.show()
