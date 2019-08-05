@@ -19,7 +19,6 @@ def box_plots_for_all_vars(show_not_save=True):
     for y in header[0:-1]:
         plt.boxplot([df.loc[df.has_cancer == healthy, y], df.loc[df.has_cancer == has_cancer, y]], showfliers=True,
                     widths=.9)
-        # plt.xticks([1, 2], ['healthy', 'cancer patient'])
         plt.xticks([1, 2], ['healthy', 'cancer patient'])
         plt.title(f'Cancer vs {y}')
         plt.ylabel(y)
@@ -75,9 +74,9 @@ def describe_var(var):
 
 
 describe_var('Age')
-# box_plots_for_all_vars(show_not_save=False)
-# one_box_plot_for_all_vars()
-# cancer_hist()
+box_plots_for_all_vars(show_not_save=False)
+one_box_plot_for_all_vars()
+cancer_hist()
 
 cancer_hist(var='Age',show_not_save=False)
 cancer_hist('Glucose',False)
