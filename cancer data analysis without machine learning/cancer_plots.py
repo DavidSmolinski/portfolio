@@ -82,6 +82,5 @@ cancer_hist(var='Age',show_not_save=False)
 cancer_hist('Glucose',False)
 
 threshold=120
-threshold_ratio = df.loc[df.has_cancer == has_cancer, 'Glucose']
 threshold_ratio = df.loc[(df.has_cancer == has_cancer) & (df.Glucose > threshold), 'Glucose'].sum() / df.loc[df.has_cancer == has_cancer, 'Glucose'].sum()
 print(f'\nThe glucose threshold of > {threshold} captures {threshold_ratio * 100}% of cancer +.')
