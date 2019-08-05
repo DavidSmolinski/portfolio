@@ -46,8 +46,9 @@ def one_box_plot_for_all_vars():
     plt.clf()
 
 
-def cancer_hist(var,show_not_save=True):
+def cancer_hist(var, show_not_save=True):
     """a histogram for cancer + and - for var
+    :param show_not_save: if False, save as .png
     :param var: string, the df column other than has_cancer
     """
     plt.hist(df.loc[df.has_cancer == healthy, var], alpha=.5, bins=9, label='healthy')
@@ -73,14 +74,14 @@ def describe_var(var):
     print(f'\n{var} cancer-\n{var_healthy}')
 
 
+threshold = 120
+threshold_ratio = df.loc[(df.has_cancer == has_cancer) & (df.Glucose > threshold), 'Glucose'].sum() / df.loc[
+    df.has_cancer == has_cancer, 'Glucose'].sum()
+print(f'\nThe glucose threshold of > {threshold} captures {threshold_ratio * 100}% of cancer +.')
+
+cancer_hist(var='Age', show_not_save=False)
+cancer_hist('Glucose', False)
+
 describe_var('Age')
 box_plots_for_all_vars(show_not_save=False)
 one_box_plot_for_all_vars()
-cancer_hist()
-
-cancer_hist(var='Age',show_not_save=False)
-cancer_hist('Glucose',False)
-
-threshold=120
-threshold_ratio = df.loc[(df.has_cancer == has_cancer) & (df.Glucose > threshold), 'Glucose'].sum() / df.loc[df.has_cancer == has_cancer, 'Glucose'].sum()
-print(f'\nThe glucose threshold of > {threshold} captures {threshold_ratio * 100}% of cancer +.')
