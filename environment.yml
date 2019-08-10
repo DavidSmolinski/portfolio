@@ -6,7 +6,6 @@ dependencies:
   - numpy
   - matplotlib
   - pandas
-  - sqlite3
   - requests
-  - io
-  - zipfile
+
+
