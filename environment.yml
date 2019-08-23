@@ -8,5 +8,6 @@ dependencies:
   - pandas
   - requests
   - bs4
-
+  - geocoder
+  - geopy
 
