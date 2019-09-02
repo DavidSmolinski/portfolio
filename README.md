@@ -8,8 +8,8 @@ Organization: Skills used in multiple programs will usually only be listed for o
 ___
 <br>
 
-#### **Portfolio**
-___
+#### **Portfolio:**
+
 Python and SQL
 
 - bank dataset [Github](https://github.com/DavidSmolinski/portfolio/blob/master/SQL%20CSV%20Pandas%20Python%20Project/bank.ipynb)  [Google](https://colab.research.google.com/drive/1Q6DH7iTorqIEtB42ddTV8mGVSFFTGt6x#scrollTo=7JtWERPhPPOG)  
@@ -62,8 +62,8 @@ Python
 
 <br>
 
-#### **Work**
-___
+#### **Work:**
+
 Python
 
 - CMM measurements
@@ -86,8 +86,8 @@ VBA
 
 <br>
 
-#### **Other**
-___
+#### **Other:**
+
 Arduino
 
 - cylinder drilling robot
