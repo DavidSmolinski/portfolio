@@ -3,17 +3,20 @@
 ___
 <br>
 
-#### **Programs and Skills**
+### **Programs and Skills**
 Organization: Skills used in multiple programs will usually only be listed for one program. Basic skills might not be listed. To see a program, click on its "Github" or "Google" link. The Google (Google Colab) version can be run like a Jupyter Notebook.
 ___
+<br>
 
+#### **Portfolio**
+___
 Python and SQL
 
 - bank dataset [Github](https://github.com/DavidSmolinski/portfolio/blob/master/SQL%20CSV%20Pandas%20Python%20Project/bank.ipynb)  [Google](https://colab.research.google.com/drive/1Q6DH7iTorqIEtB42ddTV8mGVSFFTGt6x#scrollTo=7JtWERPhPPOG)  
     - Jupyter Notebooks
     - sql (sqlite3) database
-    - read/write sql
-    - read/write csv
+    - read/write (r/w) sql
+    - r/w csv
     - pandas
     - numpy
 
@@ -55,10 +58,42 @@ Python
     - decorator
 - coolant3 [Github](https://github.com/DavidSmolinski/portfolio/blob/master/change_m8/coolant3.py) 
     - g code
+    - r/w txt
 
-Work Programs (summaries)
+<br>
 
-- I will add this section soon.
+#### **Work**
+___
+Python
+
+- CMM measurements
+    - r/w Excel (xlsx, xls)
+    - openpyxl
+    - xlrd
+    - shutil
+    - defaultdict
+    - pyinstaller
+    - data cleaning and sorting
+- Word to Excel converter
+    - data alignment
+
+VBA
+
+- conditional timestamps
+    - Worksheet_Change subroutine
+    - Detect a change event in the intersection of cell ranges.
+    - timestamp
+
+<br>
+
+#### **Other**
+___
+Arduino
+
+- cylinder drilling robot
+    - stepper motor
+    - solenoid
+    - limit switch
 
 <br>
 
@@ -66,3 +101,4 @@ Work Programs (summaries)
 ___
 
 [Linkedin](https://www.linkedin.com/in/david-smolinski-96933050/) 
+
