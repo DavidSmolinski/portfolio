@@ -3,7 +3,7 @@
 ___
 <br>
 
-### **Programs and Skills**
+### **Programs and Code Skills**
 Organization: Skills used in multiple programs will usually only be listed for one program. Basic skills might not be listed. To see a program, click on its "Github" or "Google" link. The Google (Google Colab) version can be run like a Jupyter Notebook.
 ___
 <br>
