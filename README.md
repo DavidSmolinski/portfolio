@@ -30,7 +30,7 @@ Python
     - namedtuple
     - inheritance
     - subclass
-- KNN on breast cancer [Github](https://github.com/DavidSmolinski/portfolio/blob/master/machine%20learning%20breast%20cancer/machine_learning_bc.ipynb)  [Google](https://colab.research.google.com/drive/16evW7ZgGegf7W-fx_NeSp27EM0BmhZlh)
+- KNN on breast cancer [Github](https://github.com/DavidSmolinski/portfolio/blob/master/machine%20learning/machine_learning_bc.ipynb)  [Google](https://colab.research.google.com/drive/16evW7ZgGegf7W-fx_NeSp27EM0BmhZlh)
     - machine learning (artificial intelligence)
     - k-nearest neighbors
     - stratified k-fold cross-validation
@@ -104,4 +104,3 @@ ___
 [Resume](https://docs.google.com/document/d/1NmaSZmUnfOo0ZlQYJZyDy648Fhi-4z7evU47rpatxZ4) 
 
 [Linkedin](https://www.linkedin.com/in/david-smolinski-96933050/) 
-
