@@ -102,7 +102,7 @@ Arduino
 ___
 
 
-[Table of Contents Link](https://github.com/DavidSmolinski/portfolio/tree/master/table%20of%20contents)
+## [Table of Contents Link](https://github.com/DavidSmolinski/portfolio/tree/master/table%20of%20contents)
 
 [Resume](https://docs.google.com/document/d/1NmaSZmUnfOo0ZlQYJZyDy648Fhi-4z7evU47rpatxZ4) 
 
