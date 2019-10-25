@@ -1,4 +1,4 @@
-# **Table of Contents**
+# **Table of Contents Link**
 #### (David Smolinski's portfolio)
 ___
 <br>
@@ -100,6 +100,9 @@ Arduino
 
 #### **More Links**
 ___
+
+
+[Table of Contents Link](https://github.com/DavidSmolinski/portfolio/tree/master/table%20of%20contents)
 
 [Resume](https://docs.google.com/document/d/1NmaSZmUnfOo0ZlQYJZyDy648Fhi-4z7evU47rpatxZ4) 
 
