@@ -33,6 +33,7 @@ Python
 - KNN on breast cancer [Github](https://github.com/DavidSmolinski/portfolio/blob/master/machine%20learning/machine_learning_bc.ipynb)  [Google](https://colab.research.google.com/drive/16evW7ZgGegf7W-fx_NeSp27EM0BmhZlh)
     - machine learning (artificial intelligence)
     - k-nearest neighbors
+        - kljklj
     - stratified k-fold cross-validation
     - scikit-learn (sklearn)
     - statistics, data analysis, data science
