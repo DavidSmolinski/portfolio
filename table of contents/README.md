@@ -30,13 +30,14 @@ Python
     - namedtuple
     - inheritance
     - subclass
-- KNN on breast cancer [Github](https://github.com/DavidSmolinski/portfolio/blob/master/machine%20learning/machine_learning_bc.ipynb)  [Google](https://colab.research.google.com/drive/16evW7ZgGegf7W-fx_NeSp27EM0BmhZlh)
-    - machine learning (artificial intelligence)
-    - k-nearest neighbors
-        - kljklj
-    - stratified k-fold cross-validation
-    - scikit-learn (sklearn)
-    - statistics, data analysis, data science
+- machine learning (artificial intelligence): classification with scikit-learn (sklearn)
+    - KNN on breast cancer [Github](https://github.com/DavidSmolinski/portfolio/blob/master/machine%20learning/machine_learning_bc.ipynb)  [Google](https://colab.research.google.com/drive/16evW7ZgGegf7W-fx_NeSp27EM0BmhZlh)
+        - k-nearest neighbors
+        - stratified k-fold cross-validation
+        - statistics, data analysis, data science
+    - Somerville police trust [Github](https://github.com/DavidSmolinski/portfolio/blob/master/machine%20learning/Somerville%20police%20trust.ipynb)  [Google](https://colab.research.google.com/drive/1DVvC_PKC8Sxu1uMI0QN_Q2O0aIDtCBs2)
+        - logistic regression
+        - train/test split
 - cancer plots [Github](https://github.com/DavidSmolinski/portfolio/blob/master/cancer%20data%20analysis%20without%20machine%20learning/cancer_plots.ipynb)  [Google](https://colab.research.google.com/drive/1q5nwWg51bin0lnY6EQ6xl2LAa36vTgx-)
     - statistics
     - data visualization
