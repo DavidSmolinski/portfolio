@@ -1,5 +1,6 @@
 # **Table of Contents**
 #### (David Smolinski's portfolio)
+You should add me on social media because I heard that helps with careers.
 ___
 <br>
 You should add me on social media because I heard that helps with careers.
