@@ -75,6 +75,7 @@ Python
     - openpyxl
     - xlrd
     - shutil
+    - os
     - defaultdict
     - pyinstaller
     - data cleaning and sorting
