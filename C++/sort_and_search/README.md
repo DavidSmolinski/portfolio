@@ -1,7 +1,5 @@
 ## **sort_search.cpp by David Smolinski**
 
-I did not invent the sort and search algorithms used here. I modified them for
-
 What this adds to my portfolio:
 - c++ class and object
 - getter and setter
