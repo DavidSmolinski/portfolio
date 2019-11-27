@@ -7,7 +7,7 @@ What this adds to my portfolio:
 - switch case
 
 The program makes a class that can do this:
-- Store an original and sorted vectors of ints.
+- Store original and sorted vectors of ints.
 - Sort with insertion sort.
 - binary search
 
