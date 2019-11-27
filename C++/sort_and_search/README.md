@@ -4,6 +4,7 @@ What this adds to my portfolio:
 - c++ class and object
 - getter and setter
 - vector
+- switch case
 
 The program makes a class that can do this:
 - Store an original and sorted vectors of ints.
