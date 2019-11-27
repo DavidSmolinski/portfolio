@@ -138,8 +138,7 @@ void classTest(BiSearchableVec bsv, int element)
     }
     else
     {
-        printf("In the sorted vector, element %i is at index %i.\n"
-        , element, index);
+        printf("In the sorted vector, element %i is at index %i.\n", element, index);
     }
 }
 
