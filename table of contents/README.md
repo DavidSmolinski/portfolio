@@ -62,6 +62,14 @@ Python
 - coolant3 [Github](https://github.com/DavidSmolinski/portfolio/blob/master/change_m8/coolant3.py) 
     - g code
     - r/w txt
+    
+C++
+
+- sort_and_search [Github](https://github.com/DavidSmolinski/portfolio/tree/master/C%2B%2B/sort_and_search) 
+    - c++ class and object
+    - getter and setter
+    - vector
+    - switch case
 
 <br>
 
