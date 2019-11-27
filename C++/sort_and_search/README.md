@@ -1,4 +1,4 @@
-## **sort_search.cpp by David Smolinski**
+## **[sort_search.cpp by David Smolinski](https://github.com/DavidSmolinski/portfolio/blob/master/C%2B%2B/sort_and_search/sort_search.cpp)**
 
 What this adds to my portfolio:
 - c++ class and object
