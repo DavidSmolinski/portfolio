@@ -27,6 +27,7 @@ Links:
 
 searching and sorting vectors
 
+
 vector 1
 
 original vector: 2 10 7 1 22 8 2 33 3 
@@ -35,10 +36,14 @@ sorted vector: 1 2 2 3 7 8 10 22 33
 
 In the sorted vector, element 7 is at index 4.
 
+
 vector 2 (the default)
 
 original vector: 4 8 15 16 23 42 
 
-sorted vector: 4 8 15 16 23 42 \n
+sorted vector: 4 8 15 16 23 42 
+
 In the sorted vector, element 42 is at index 5.
+
+
 searches done: 2
