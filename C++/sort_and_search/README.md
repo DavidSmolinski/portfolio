@@ -26,7 +26,7 @@ Links:
 ## **The program's output:**
 
 searching and sorting vectors
-<br>
+<br><br>
 
 vector 1
 
