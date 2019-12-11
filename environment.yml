@@ -10,4 +10,5 @@ dependencies:
   - bs4
   - geocoder
   - geopy
+  - seaborn
 
