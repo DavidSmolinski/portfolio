@@ -39,6 +39,11 @@ Python
     - Somerville police trust [Github](https://github.com/DavidSmolinski/portfolio/blob/master/machine%20learning/Somerville%20police%20trust.ipynb)  [Google](https://colab.research.google.com/drive/1DVvC_PKC8Sxu1uMI0QN_Q2O0aIDtCBs2)
         - logistic regression
         - train/test split
+        - multiclass classification and confusion matrix
+    - Traffic Predictions [Github](https://github.com/DavidSmolinski/portfolio/blob/master/machine%20learning/traffic.ipynb)  [Google](https://colab.research.google.com/drive/1J24SykFvNO2pnZvEU_-BiIaQHjS_reTi)
+        - linear regression
+        - seaborn
+        - timestamp, datetime, time series
 - cancer plots [Github](https://github.com/DavidSmolinski/portfolio/blob/master/cancer%20data%20analysis%20without%20machine%20learning/cancer_plots.ipynb)  [Google](https://colab.research.google.com/drive/1q5nwWg51bin0lnY6EQ6xl2LAa36vTgx-)
     - statistics
     - data visualization
