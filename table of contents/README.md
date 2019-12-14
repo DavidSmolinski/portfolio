@@ -31,12 +31,14 @@ Python
     - namedtuple
     - inheritance
     - subclass
-- machine learning (artificial intelligence): classification with scikit-learn (sklearn)
+- machine learning (artificial intelligence) with scikit-learn (sklearn):
     - KNN on breast cancer [Github](https://github.com/DavidSmolinski/portfolio/blob/master/machine%20learning/machine_learning_bc.ipynb)  [Google](https://colab.research.google.com/drive/16evW7ZgGegf7W-fx_NeSp27EM0BmhZlh)
+        - classification
         - k-nearest neighbors
         - stratified k-fold cross-validation
         - statistics, data analysis, data science
     - Somerville police trust [Github](https://github.com/DavidSmolinski/portfolio/blob/master/machine%20learning/Somerville%20police%20trust.ipynb)  [Google](https://colab.research.google.com/drive/1DVvC_PKC8Sxu1uMI0QN_Q2O0aIDtCBs2)
+        - classification
         - logistic regression
         - train/test split
         - multiclass classification and confusion matrix
