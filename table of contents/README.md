@@ -69,6 +69,9 @@ Python
 - coolant3 [Github](https://github.com/DavidSmolinski/portfolio/blob/master/change_m8/coolant3.py) 
     - g code
     - r/w txt
+- maximal_square [Github](https://github.com/DavidSmolinski/portfolio/blob/master/change_m8/coolant3.py)  [Google](https://colab.research.google.com/drive/1fvuKOD1A8-AndrrxH-9ZsifnYhWt2gCb)
+    - numpy
+    - lambda function
     
 C++
 
