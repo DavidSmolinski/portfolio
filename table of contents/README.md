@@ -19,7 +19,6 @@ Python and SQL
     - read/write (r/w) sql
     - r/w csv
     - pandas
-    - numpy
 
 Python
 
