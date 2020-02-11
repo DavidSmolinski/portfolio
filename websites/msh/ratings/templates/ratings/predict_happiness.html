@@ -1,0 +1,50 @@
+{% extends "ratings/survey_base.html" %}
+{%load crispy_forms_tags%}
+{% block title %}
+    predict happiness
+{% endblock title %}
+
+{% block content %}
+<header class="major">
+    <h1>Predict your happiness.</h1>
+</header>
+<hr />
+
+<h3>Summary</h3>
+<p>
+    Use the Somerville Happiness Survey to predict the probability that you are happy. This feature is only for 
+    Somerville residents. If enough people submit surveys to add to this site's happiness database, predictions can be
+    made available to the general public.
+    My program for making the model that predicts Somerville happiness is 
+    <a href="https://github.com/DavidSmolinski/portfolio/blob/master/machine%20learning/happiness.ipynb">
+        available here.
+    </a>
+</p>
+
+<hr />
+
+<h3>Instructions</h3>
+<ol>
+    <li>If you are not from Somerville, Massachusetts, USA, your prediction will be meaningless.</li>
+    <li>If any of the survey fields do not apply to you, stop and do not click "submit".</li>
+    <li>Choose a rating for each field. Except for the "happy field", all fields pertain to your opinions about your 
+        city or town.</li>
+    <li>Click submit.</li>
+    <li>Below the submit button, a statement about your happiness will appear.</li>
+</ol>
+
+<hr />
+
+
+<form method='POST'>{% csrf_token %}
+    <fieldset class="form-group">
+        {{ form|crispy }}
+    </fieldset>
+    <br>
+    <div class="form-group">
+        <button class="btn btn-outline-info" type="submit">submit</button>
+    </div>
+</form>
+<div>{{ percent_happy_prob }}</div>
+
+{% endblock content %}

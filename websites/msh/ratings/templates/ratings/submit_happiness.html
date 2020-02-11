@@ -1,0 +1,56 @@
+{% extends "ratings/survey_base.html" %}
+{%load crispy_forms_tags%}
+{% block title %}
+    submit happiness
+{% endblock title %}
+
+{% block content %}
+
+<header class="major">
+    <h1>Submit your happiness.</h1>  
+</header>
+<hr />
+
+<h3>Summary</h3>
+<p>
+    Submitting happiness surveys will help us to understand happiness and make better predictions. The Somerville 
+    Happiness Survey dataset allowed me to bring happiness predictions to Somerville residents. If enough people submit 
+    surveys, we will have the data needed to understand general happiness (for people who might not be from Somerville). 
+    I will then be able to make the happiness prediction feature available to the general public. The data will be 
+    stored in a database that the public can access on the JSON API pages of this website. To discourage users from 
+    accidentally submitting multiple surveys, I added a message above the survey form that tells a user if a submission
+    was made from their IP address.
+</p>
+
+<hr />
+
+
+<h3>Instructions</h3>
+<ol>
+    <li>Do not submit this survey form more than once.</li>
+    <li>If any of the survey fields do not apply to you, stop and do not click "submit".</li>
+    <li>Choose a rating for each field. Except for the "happy field", all fields pertain to your oppinions about your 
+        city or town.</li>
+    <li>Click submit.</li>
+</ol>
+
+<hr />
+
+<!-- Warn the user if a survey was submitted with this ip address. -->
+{% if message %}
+<p>{{ message }}</p>
+{% endif %}
+
+<form method='POST'>{% csrf_token %}
+    <fieldset class="form-group">
+        {{ form|crispy }}
+
+    </fieldset>
+    <div class="form-group">
+        <button class="btn btn-outline-info" type="submit">submit</button>
+        <!-- <button class="btn btn-outline-info" type="button">submit</button> -->
+
+    </div>
+</form>
+
+{% endblock content %}

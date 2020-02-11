@@ -1,0 +1,37 @@
+{% extends "ratings/base.html" %}
+{% block body %}
+	<!-- Wrapper -->
+	<div id="wrapper">
+		
+		<header id="header"></header>
+
+		<!-- Main -->
+		<div id="main">
+
+			<!-- Post -->
+			<section class="post">
+				
+				<!-- navigation buttons -->
+				<div class="row">
+					<div class="col-4 col-12-small">
+						<ul class="actions stacked">
+							<li><a href="{% url 'home_view' %}" class="button primary fit">home</a></li>
+						</ul>
+					</div>
+					<div class="col-4 col-12-small">
+						<ul class="actions stacked">
+							<li><a href="{% url 'predict_happy_view' %}" class="button primary fit">predict happiness</a></li>
+						</ul>
+					</div>
+					<div class="col-4 col-12-small">
+						<ul class="actions stacked">
+							<li><a href="{% url 'submit_happiness' %}" class="button primary fit">submit happiness</a></li>
+						</ul>
+					</div>
+	
+				</div>
+
+                {% block content %}{% endblock %} <!-- Code from children goes here. ------------------------------- -->
+			</section>
+		</div>
+				{% endblock body %}

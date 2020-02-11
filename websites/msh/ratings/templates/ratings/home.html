@@ -1,0 +1,130 @@
+{% extends "ratings/base.html" %}
+{% load static %}
+{% block title %}
+	More Somerville Happiness
+{% endblock title %}
+
+{% block body %}
+	<div id="wrapper" class="fade-in">
+
+		<div id="intro" style="text-align: center;">
+			<h1><a href="#">More Somerville<br />
+					Happiness<br />
+				</a></h1>
+			<h2><a href="#">by David Smolinski</a></h2>
+
+		</div>
+
+		<!-- Main -->
+		<div id="main">
+
+			<!-- Featured Post -->
+			<article class="post featured">
+				<header class="major">
+					<h2>Learn about happiness!</h2>
+					<p>
+						On the "predict happiness" page, you can use artificial
+						intelligence and the Somerville Happiness Survey to learn about your happiness.
+						<a href="https://archive.ics.uci.edu/ml/datasets/Somerville+Happiness+Survey">Click this
+							link to see the original survey and dataset.</a>
+						At first, this will only be for residents of Somerville, Massachusetts,
+						USA because the first prediction model is based on data from Somerville residents. On the
+						"submit happiness" page, you can submit your happiness survey (even if you aren't from
+						Somerville). If
+						enough people do this, we will have the data to make happiness predictions avaliable to
+						residents
+						in other parts of the world.
+					</p>
+				</header>
+			</article>
+
+			<!-- Posts -->
+			<section class="posts">
+
+				<article>
+					<a href="{% url 'predict_happy_view' %}">
+						<h2>Predict happiness!</h2>
+						<img src="{% static 'ratings/images/bee_hat.jpg' %}" alt="" class="image fit" />
+						<p>Get the probability that you are happy by using the KNN algorithm with 4 neighbors.</p>
+					</a>
+				</article>
+				<article>
+					<a href="{% url 'submit_happiness' %}">
+						<h2>Submit happiness!</h2>
+						<img src="{% static 'ratings/images/industry-steel-grinder-technology.jpg' %}" alt=""
+							class="image fit" />
+						<p>Help us learn about happiness by adding to the database.</p>
+					</a>
+				</article>
+				
+				<article>
+					<a href="{% url 'api' %}">
+						<h2>pretty api</h2>
+						<img src="{% static 'ratings/images/pretty_api400.jpg' %}" alt="" class="image fit" />
+						<p>See what's in the happiness database.</p>
+					</a>
+				</article>
+				<article>
+					<a href="{% url 'api' %}?format=json">
+						<h2>json api</h2>
+						<img src="{% static 'ratings/images/json_api200.jpg' %}" alt="" class="image fit" />
+						<p>This is a good API endpoint for other people's programs to read this site's happiness data.</p>
+					</a>
+				</article>
+				<article>
+					<a href="{% url 'admin:index' %}">
+						<h2>admin login</h2>
+						<img src="{% static 'ratings/images/admin300.jpg' %}" alt="" class="image fit" />
+						<p>Be an administrator.</p>
+					</a>
+				</article>
+				<article>
+					<a href="https://docs.google.com/document/d/1NmaSZmUnfOo0ZlQYJZyDy648Fhi-4z7evU47rpatxZ4">
+						<h2>David Smolinski's resume</h2>
+						<img src="{% static 'ratings/images/david_smolinski.jpg' %}" alt="" class="image fit" />
+					</a>
+				</article>
+				<article>
+					<a href="https://github.com/DavidSmolinski/portfolio/tree/master/table%20of%20contents">
+						<h2>David's code portfolio</h2>
+						<img src="{% static 'ratings/images/form_code400.jpg' %}" alt="" class="image fit" />
+					</a>
+				</article>
+
+			</section>
+
+		</div>
+
+		<!-- Footer -->
+		<footer id="footer">
+			<section class="split contact">
+				<section class="alt">
+					<h3>Address</h3>
+					<p>Northeast Massachusetts, USA</p>
+				</section>
+				<section>
+					<h3>Email (for business)</h3>
+					<p><a href="mailto:dsmolinski123@gmail.com">dsmolinski123@gmail.com</a></p>
+				</section>
+				<section>
+					<h3>Social</h3>
+					<ul class="icons alt">
+						<li><a href="https://www.linkedin.com/in/davidsmolinski/"
+								class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+						<li><a href="https://github.com/DavidSmolinski/portfolio/tree/master/table%20of%20contents"
+								class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+					</ul>
+				</section>
+				<section>
+					<h2>
+						<p>
+							Design: The front end of this site was made using the "Massively" template from <a
+								href="https://html5up.net">HTML5 UP</a>.
+							Design modifications were made by David Smolinski.
+						</p>
+					</h2>
+				</section>
+			</section>
+		</footer>
+{% endblock body %}
+				
