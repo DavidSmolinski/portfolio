@@ -2,7 +2,7 @@
 ### **Django code for [this site](https://moresomervillehappinessapp.herokuapp.com/home)**
 ___
 <br>
-Changes that would have to be made to make this work:
+Changes that would have to be made for other people to make the site work:
 
 1. Add the images. I removed them for Github.
 2. Customize msh/settings.py
