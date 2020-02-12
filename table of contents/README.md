@@ -11,11 +11,18 @@ ___
 
 #### **Portfolio:**
 
+Django (website development)
+
+- MSH [site](https://moresomervillehappinessapp.herokuapp.com/home)  [Github](https://github.com/DavidSmolinski/portfolio/tree/master/websites/msh)  
+    - ORM (object relational mapper)
+    - html, css
+    - PostgreSQL database, CRUD (create read update delete)
+
 Python and SQL
 
 - bank dataset [Github](https://github.com/DavidSmolinski/portfolio/blob/master/SQL%20CSV%20Pandas%20Python%20Project/bank.ipynb)  [Google](https://colab.research.google.com/drive/1Q6DH7iTorqIEtB42ddTV8mGVSFFTGt6x#scrollTo=7JtWERPhPPOG)  
     - Jupyter Notebooks
-    - sql (sqlite3) database
+    - sql (sqlite3)
     - read/write (r/w) sql
     - r/w csv
     - pandas
@@ -31,20 +38,20 @@ Python
     - inheritance
     - subclass
 - machine learning (artificial intelligence) with scikit-learn (sklearn):
-    - KNN on breast cancer [Github](https://github.com/DavidSmolinski/portfolio/blob/master/machine%20learning/machine_learning_bc.ipynb)  [Google](https://colab.research.google.com/drive/16evW7ZgGegf7W-fx_NeSp27EM0BmhZlh)
-        - classification
-        - k-nearest neighbors
-        - stratified k-fold cross-validation
-        - statistics, data analysis, data science
-    - Somerville police trust [Github](https://github.com/DavidSmolinski/portfolio/blob/master/machine%20learning/Somerville%20police%20trust.ipynb)  [Google](https://colab.research.google.com/drive/1DVvC_PKC8Sxu1uMI0QN_Q2O0aIDtCBs2)
-        - classification
-        - logistic regression
-        - train/test split
-        - multiclass classification and confusion matrix
-    - Traffic Predictions [Github](https://github.com/DavidSmolinski/portfolio/blob/master/machine%20learning/traffic.ipynb)  [Google](https://colab.research.google.com/drive/1J24SykFvNO2pnZvEU_-BiIaQHjS_reTi)
-        - linear regression
-        - seaborn
-        - timestamp, datetime, time series
+    - classification
+        - for my MSH website [Github](https://github.com/DavidSmolinski/portfolio/blob/master/machine%20learning/happiness.ipynb)
+            - cross_val_score
+            - GridSearchCV (stratified k-fold cross-validation)
+            - algorithms (logistic regression, KNN, etc.)
+        - KNN on breast cancer [Github](https://github.com/DavidSmolinski/portfolio/blob/master/machine%20learning/machine_learning_bc.ipynb)  [Google](https://colab.research.google.com/drive/16evW7ZgGegf7W-fx_NeSp27EM0BmhZlh)
+            - statistics, data analysis, data science
+        - Somerville police trust [Github](https://github.com/DavidSmolinski/portfolio/blob/master/machine%20learning/Somerville%20police%20trust.ipynb)  [Google](https://colab.research.google.com/drive/1DVvC_PKC8Sxu1uMI0QN_Q2O0aIDtCBs2)
+            - train/test split
+            - multiclass classification and confusion matrix
+    - linear regression
+        - Traffic Predictions [Github](https://github.com/DavidSmolinski/portfolio/blob/master/machine%20learning/traffic.ipynb)  [Google](https://colab.research.google.com/drive/1J24SykFvNO2pnZvEU_-BiIaQHjS_reTi)
+            - seaborn
+            - timestamp, datetime, time series
 - cancer plots [Github](https://github.com/DavidSmolinski/portfolio/blob/master/cancer%20data%20analysis%20without%20machine%20learning/cancer_plots.ipynb)  [Google](https://colab.research.google.com/drive/1q5nwWg51bin0lnY6EQ6xl2LAa36vTgx-)
     - statistics
     - data visualization
@@ -125,4 +132,3 @@ ___
 [Resume](https://docs.google.com/document/d/1NmaSZmUnfOo0ZlQYJZyDy648Fhi-4z7evU47rpatxZ4) 
 
 [Linkedin](https://www.linkedin.com/in/david-smolinski-96933050/) 
-
