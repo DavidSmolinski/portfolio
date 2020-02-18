@@ -11,7 +11,7 @@ ___
 
 #### **Portfolio:**
 
-Django (website development)
+Django (Python website development)
 
 - MSH [site](https://moresomervillehappinessapp.herokuapp.com/home)  [Github](https://github.com/DavidSmolinski/portfolio/tree/master/websites/msh)  
     - ORM (object relational mapper)
