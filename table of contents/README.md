@@ -95,7 +95,7 @@ Python
 
 - CMM measurements [flowchart](https://drive.google.com/file/d/1ZXXQr_sRHcxXa7fGgBZX1LvO-symZtQ8/view)
     - searching and sorting for files
-    - r/w Excel (xlsx, xls)
+    - ETL, r/w Excel (xlsx, xls)
     - openpyxl
     - xlrd
     - shutil
