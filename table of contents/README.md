@@ -29,14 +29,6 @@ Python and SQL
 
 Python
 
-- binary classified visualization [Github](https://github.com/DavidSmolinski/portfolio/blob/master/cancer%20data%20analysis%20without%20machine%20learning/binary_classified_visualization.ipynb)  [Google](https://colab.research.google.com/drive/17yfQZhAT-GUHUESiU6oankrbHxrjvy3w)
-    - object oriented programming (OOP)
-    - class
-    - instance method (regular method)
-    - instance variable
-    - namedtuple
-    - inheritance
-    - subclass
 - machine learning (artificial intelligence) with scikit-learn (sklearn):
     - classification
         - for my MSH website [Github](https://github.com/DavidSmolinski/portfolio/blob/master/machine%20learning/happiness.ipynb)
@@ -58,6 +50,14 @@ Python
     - matplotlib
     - higher order function
     - pandas
+- binary classified visualization [Github](https://github.com/DavidSmolinski/portfolio/blob/master/cancer%20data%20analysis%20without%20machine%20learning/binary_classified_visualization.ipynb)  [Google](https://colab.research.google.com/drive/17yfQZhAT-GUHUESiU6oankrbHxrjvy3w)
+    - object oriented programming (OOP)
+    - class
+    - instance method (regular method)
+    - instance variable
+    - namedtuple
+    - inheritance
+    - subclass
 - bank2 [Github](https://github.com/DavidSmolinski/portfolio/blob/master/pandas%20matplotlib/bank2.ipynb)  [Google](https://colab.research.google.com/drive/1UahtJqPc7MdqgTBnQlZ9zcGZ7ZU4ZZ9r)
     - data cleaning
     - pandas dataframe optimization
