@@ -44,6 +44,7 @@ SQL
 
 ___
 <br>
+
 ### **Work Projects**
 
 Python
@@ -63,7 +64,6 @@ ___
 <br>
 
 ### **More details about skills/tools in portfolio/projects**
-___
 
 Python
 
@@ -131,9 +131,10 @@ Other web development
 - html
 - css
 
+___
+<br>
 
 #### **More Links**
-___
 
 [Resume](https://docs.google.com/document/d/1NmaSZmUnfOo0ZlQYJZyDy648Fhi-4z7evU47rpatxZ4) 
 
