@@ -5,7 +5,6 @@ ___
 <br>
 
 ### **Code Portfolio**
-___
 
 Python
 
@@ -43,9 +42,9 @@ SQL
 
 - [bank dataset](https://github.com/DavidSmolinski/portfolio/blob/master/SQL%20CSV%20Pandas%20Python%20Project/bank.ipynb)  [Google](https://colab.research.google.com/drive/1Q6DH7iTorqIEtB42ddTV8mGVSFFTGt6x#scrollTo=7JtWERPhPPOG)  
 
+___
 <br>
-
-#### **Work:**
+### **Work Projects**
 
 Python
 
@@ -60,9 +59,10 @@ VBA
 
 - conditional timestamps
 
+___
 <br>
 
-### **More details about skills/tools in portfolio**
+### **More details about skills/tools in portfolio/projects**
 ___
 
 Python
