@@ -117,8 +117,9 @@ Python
 
 
 SQL 
-    - sqlite3
-    - PostgreSQL
+
+- sqlite3
+- PostgreSQL
 
 C++
 
