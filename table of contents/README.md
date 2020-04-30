@@ -28,7 +28,6 @@ Python and SQL
     - pandas
 
 Python
-
 - machine learning (artificial intelligence) with scikit-learn (sklearn):
     - classification
         - for my MSH website [Github](https://github.com/DavidSmolinski/portfolio/blob/master/machine%20learning/happiness.ipynb)
