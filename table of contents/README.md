@@ -93,7 +93,6 @@ Python
     - timestamp, datetime, time series
     - sql (sqlite3)
     - Jupyter Notebooks
-    - read/write to files
     - data cleaning
     - dataframe optimization
     - regular expressions
@@ -111,9 +110,10 @@ Python
 - collections (namedtuple, defaultdict, counter)
 - numpy
 - lambda function
-- shutil
-- os
+- sorting files: shutil, os
+- read/write to files: openpyxl, xlrd, PyPDF2
 - pyinstaller
+- JSON
 
 
 SQL 
