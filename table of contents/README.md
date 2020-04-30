@@ -132,8 +132,8 @@ C++
 - limit switch
 
 Other web development
-    - html
-    - css
+- html
+- css
 
 
 #### **More Links**
