@@ -1,15 +1,12 @@
 # **Table of Contents**
-#### (David Smolinski's portfolio)
+#### (David Smolinski)
 You should add me on social media because I heard that helps with careers.
 ___
 <br>
 
-### **Programs and Code Skills**
-Organization: Skills used in multiple programs will usually only be listed for one program. Basic skills might not be listed. To see a program, click on its "Github" or "Google" link. The Google (Google Colab) version can be run like a Jupyter Notebook.
+### **Code Portfolio**
 ___
 <br>
-
-#### **Portfolio:**
 
 Python
 
@@ -66,7 +63,7 @@ VBA
 
 <br>
 
-#### **More details about skills/tools in portfolio**
+### **More details about skills/tools in portfolio**
 ___
 
 Python
