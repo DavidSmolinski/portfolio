@@ -5,6 +5,7 @@ ___
 <br>
 
 ### **Code Portfolio**
+___
 
 Python
 
@@ -46,6 +47,7 @@ ___
 <br>
 
 ### **Work Projects**
+___
 
 Python
 
@@ -64,6 +66,7 @@ ___
 <br>
 
 ### **More details about skills/tools in portfolio/projects**
+___
 
 Python
 
@@ -134,7 +137,8 @@ Other web development
 ___
 <br>
 
-#### **More Links**
+### **More Links**
+___
 
 [Resume](https://docs.google.com/document/d/1NmaSZmUnfOo0ZlQYJZyDy648Fhi-4z7evU47rpatxZ4) 
 
