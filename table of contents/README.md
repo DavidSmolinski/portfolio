@@ -6,7 +6,6 @@ ___
 
 ### **Code Portfolio**
 ___
-<br>
 
 Python
 
