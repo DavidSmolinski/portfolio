@@ -11,80 +11,41 @@ ___
 
 #### **Portfolio:**
 
-Django (Python website development)
-
-- MSH [site](https://moresomervillehappinessapp.herokuapp.com/home)  [Github](https://github.com/DavidSmolinski/portfolio/tree/master/websites/msh)  
-    - ORM (object relational mapper)
-    - html, css
-    - PostgreSQL database, CRUD (create read update delete)
-
-Python and SQL
-
-- bank dataset [Github](https://github.com/DavidSmolinski/portfolio/blob/master/SQL%20CSV%20Pandas%20Python%20Project/bank.ipynb)  [Google](https://colab.research.google.com/drive/1Q6DH7iTorqIEtB42ddTV8mGVSFFTGt6x#scrollTo=7JtWERPhPPOG)  
-    - Jupyter Notebooks
-    - sql (sqlite3)
-    - read/write (r/w) sql
-    - r/w csv
-    - pandas
-
 Python
+
 - machine learning (artificial intelligence) with scikit-learn (sklearn):
     - classification
-        - for my MSH website [Github](https://github.com/DavidSmolinski/portfolio/blob/master/machine%20learning/happiness.ipynb)
-            - cross_val_score
-            - GridSearchCV (stratified k-fold cross-validation)
-            - algorithms (logistic regression, KNN, etc.)
-        - KNN on breast cancer [Github](https://github.com/DavidSmolinski/portfolio/blob/master/machine%20learning/machine_learning_bc.ipynb)  [Google](https://colab.research.google.com/drive/16evW7ZgGegf7W-fx_NeSp27EM0BmhZlh)
-            - statistics, data analysis, data science
-        - Somerville police trust [Github](https://github.com/DavidSmolinski/portfolio/blob/master/machine%20learning/Somerville%20police%20trust.ipynb)  [Google](https://colab.research.google.com/drive/1DVvC_PKC8Sxu1uMI0QN_Q2O0aIDtCBs2)
-            - train/test split
-            - multiclass classification and confusion matrix
+        - [for my MSH website](https://github.com/DavidSmolinski/portfolio/blob/master/machine%20learning/happiness.ipynb)
+        - [KNN on breast cancer](https://github.com/DavidSmolinski/portfolio/blob/master/machine%20learning/machine_learning_bc.ipynb)  [Google](https://colab.research.google.com/drive/16evW7ZgGegf7W-fx_NeSp27EM0BmhZlh)
+        - [Somerville police trust](https://github.com/DavidSmolinski/portfolio/blob/master/machine%20learning/Somerville%20police%20trust.ipynb)  [Google]
     - linear regression
-        - Traffic Predictions [Github](https://github.com/DavidSmolinski/portfolio/blob/master/machine%20learning/traffic.ipynb)  [Google](https://colab.research.google.com/drive/1J24SykFvNO2pnZvEU_-BiIaQHjS_reTi)
-            - seaborn
-            - timestamp, datetime, time series
-- cancer plots [Github](https://github.com/DavidSmolinski/portfolio/blob/master/cancer%20data%20analysis%20without%20machine%20learning/cancer_plots.ipynb)  [Google](https://colab.research.google.com/drive/1q5nwWg51bin0lnY6EQ6xl2LAa36vTgx-)
-    - statistics
-    - data visualization
-    - matplotlib
-    - higher order function
-    - pandas
-- binary classified visualization [Github](https://github.com/DavidSmolinski/portfolio/blob/master/cancer%20data%20analysis%20without%20machine%20learning/binary_classified_visualization.ipynb)  [Google](https://colab.research.google.com/drive/17yfQZhAT-GUHUESiU6oankrbHxrjvy3w)
-    - object oriented programming (OOP)
-    - class
-    - instance method (regular method)
-    - instance variable
-    - namedtuple
-    - inheritance
-    - subclass
-- bank2 [Github](https://github.com/DavidSmolinski/portfolio/blob/master/pandas%20matplotlib/bank2.ipynb)  [Google](https://colab.research.google.com/drive/1UahtJqPc7MdqgTBnQlZ9zcGZ7ZU4ZZ9r)
-    - data cleaning
-    - pandas dataframe optimization
-    - matplotlib
-- web scraping [Github](https://github.com/DavidSmolinski/portfolio/blob/master/web%20scraping%20bees/web%20scraping.ipynb)  [Google](https://colab.research.google.com/drive/1IOfmLkJk3S0uBk_-g6jQOH1yrG7tZmFq)
-    - regular expressions
-    - web scraping
-    - html parsing
-    - html requests
-    - BeautifulSoup
-- ISS [Github](https://github.com/DavidSmolinski/portfolio/blob/master/space%20station%20distance/iss_dist.ipynb)  [Google](https://colab.research.google.com/drive/1tEuKVdb2ucalepqh-CDI43qqtL87ELy6)
-    - json
-    - class method
-    - decorator
-- coolant3 [Github](https://github.com/DavidSmolinski/portfolio/blob/master/change_m8/coolant3.py) 
-    - g code
-    - r/w txt
-- maximal_square [Github](https://github.com/DavidSmolinski/portfolio/blob/master/change_m8/coolant3.py)  [Google](https://colab.research.google.com/drive/1fvuKOD1A8-AndrrxH-9ZsifnYhWt2gCb)
-    - numpy
-    - lambda function
+        - [Traffic Predictions](https://github.com/DavidSmolinski/portfolio/blob/master/machine%20learning/traffic.ipynb)  [Google](https://colab.research.google.com/drive/1J24SykFvNO2pnZvEU_-BiIaQHjS_reTi)
+- Django (website development)
+    - [MSH](https://moresomervillehappinessapp.herokuapp.com/home)  [Github](https://github.com/DavidSmolinski/portfolio/tree/master/websites/msh)  
+- data visualization
+    - [cancer plots](https://github.com/DavidSmolinski/portfolio/blob/master/cancer%20data%20analysis%20without%20machine%20learning/cancer_plots.ipynb)  [Google](https://colab.research.google.com/drive/1q5nwWg51bin0lnY6EQ6xl2LAa36vTgx-)
+    - [binary classified visualization](https://github.com/DavidSmolinski/portfolio/blob/master/cancer%20data%20analysis%20without%20machine%20learning/binary_classified_visualization.ipynb)  [Google](https://colab.research.google.com/drive/17yfQZhAT-GUHUESiU6oankrbHxrjvy3w)
+    - [bank2](https://github.com/DavidSmolinski/portfolio/blob/master/pandas%20matplotlib/bank2.ipynb)  [Google](https://colab.research.google.com/drive/1UahtJqPc7MdqgTBnQlZ9zcGZ7ZU4ZZ9r)
+    - [coronavirus](https://github.com/DavidSmolinski/portfolio/blob/master/data%20visualization/coronavirus.ipynb)
+- web scraping
+    - [web scraping](https://github.com/DavidSmolinski/portfolio/blob/master/web%20scraping%20bees/web%20scraping.ipynb)  [Google](https://colab.research.google.com/drive/1IOfmLkJk3S0uBk_-g6jQOH1yrG7tZmFq)
+    - [ISS](https://github.com/DavidSmolinski/portfolio/blob/master/space%20station%20distance/iss_dist.ipynb)  [Google](https://colab.research.google.com/drive/1tEuKVdb2ucalepqh-CDI43qqtL87ELy6)
+- g code
+    - [coolant3](https://github.com/DavidSmolinski/portfolio/blob/master/change_m8/coolant3.py) 
+- [code test prep](https://github.com/DavidSmolinski/portfolio/tree/master/python_prepare_for_code_tests)
+
+JavaScript
+
+- ReactJS (web development)
+    - [project lister]()
     
 C++
 
-- sort_and_search [Github](https://github.com/DavidSmolinski/portfolio/tree/master/C%2B%2B/sort_and_search) 
-    - c++ class and object
-    - getter and setter
-    - vector
-    - switch case
+- [sort_and_search](https://github.com/DavidSmolinski/portfolio/tree/master/C%2B%2B/sort_and_search) 
+
+SQL
+
+- [bank dataset](https://github.com/DavidSmolinski/portfolio/blob/master/SQL%20CSV%20Pandas%20Python%20Project/bank.ipynb)  [Google](https://colab.research.google.com/drive/1Q6DH7iTorqIEtB42ddTV8mGVSFFTGt6x#scrollTo=7JtWERPhPPOG)  
 
 <br>
 
@@ -93,37 +54,87 @@ C++
 Python
 
 - CMM measurements [flowchart](https://drive.google.com/file/d/1ZXXQr_sRHcxXa7fGgBZX1LvO-symZtQ8/view)
-    - searching and sorting for files
-    - ETL, r/w Excel (xlsx, xls)
-    - openpyxl
-    - xlrd
-    - shutil
-    - os
-    - defaultdict
-    - pyinstaller
-    - data cleaning and sorting
 - Word to Excel converter
-    - data alignment
+
+C++
+
+- Arduino industrial robot (for my business)
 
 VBA
 
 - conditional timestamps
-    - Worksheet_Change subroutine
-    - Detect a change event in the intersection of cell ranges.
-    - timestamp
 
 <br>
 
-#### **Other:**
+#### **More details about skills/tools in portfolio**
+___
 
-Arduino
+Python
 
-- cylinder drilling robot
-    - stepper motor
-    - solenoid
-    - limit switch
+- data science, data analysis
+    - machine learning
+        - scikit-learn (sklearn)
+        - classification
+            - cross_val_score
+            - GridSearchCV (stratified k-fold cross-validation)
+            - algorithms (logistic regression, KNN, etc.)
+            - statistics, data analysis, data science
+            - train/test split
+            - multiclass classification
+            - confusion matrix
+        - linear regression
+    - pandas
+    - numpy
+    - matplotlib
+    - seaborn
+    - timestamp, datetime, time series
+    - statistics
+    - matplotlib
+    - seaborn
+    - timestamp, datetime, time series
+    - sql (sqlite3)
+    - Jupyter Notebooks
+    - read/write to files
+    - data cleaning
+    - dataframe optimization
+    - regular expressions
+    - web scraping
+    - BeautifulSoup
+    - data cleaning and sorting
+    - data alignment
+    - Word to Excel
 
-<br>
+- Django
+    - ORM (object relational mapper)
+    - CRUD (create read update delete)
+- high order function, closure, decorator
+- object oriented programming (OOP)
+- collections (namedtuple, defaultdict, counter)
+- numpy
+- lambda function
+- shutil
+- os
+- pyinstaller
+
+
+SQL 
+    - sqlite3
+    - PostgreSQL
+
+C++
+
+- getter and setter
+- pointer
+- vector
+- switch case
+- stepper motor
+- solenoid
+- limit switch
+
+Other web development
+    - html
+    - css
+
 
 #### **More Links**
 ___
