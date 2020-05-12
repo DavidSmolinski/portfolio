@@ -46,7 +46,7 @@ SQL
 ___
 <br>
 
-### **Work Projects**
+### **Code Work Projects**
 ___
 
 Python
