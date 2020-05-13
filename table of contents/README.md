@@ -1,4 +1,5 @@
-# **Table of Contents (Scroll down and click links!)**
+# **Scroll down for links.**
+# **Table of Contents**
 #### (David Smolinski)
 You should add me on social media because I heard that helps with careers.
 ___
