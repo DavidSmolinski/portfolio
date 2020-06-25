@@ -31,11 +31,11 @@ Python
     - [coolant3](https://github.com/DavidSmolinski/portfolio/blob/master/change_m8/coolant3.py) 
 - [code test prep](https://github.com/DavidSmolinski/portfolio/tree/master/python_prepare_for_code_tests)
 
-JavaScript
+JavaScript (web development)
 
-- VueJS (web development)
+- VueJS
     - [project lister](https://davidsmolinski.github.io/project_lister_vue/) [Github](https://github.com/DavidSmolinski/project_lister_vue/tree/master)
-- ReactJS (web development)
+- ReactJS
     - [project lister](https://davidsmolinski.github.io/project_lister/) [Github](https://github.com/DavidSmolinski/project_lister/tree/master)
     
 C++
