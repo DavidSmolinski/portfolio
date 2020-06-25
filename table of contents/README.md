@@ -33,6 +33,8 @@ Python
 
 JavaScript
 
+- VueJS (web development)
+    - [project lister](https://davidsmolinski.github.io/project_lister_vue/) [Github](https://github.com/DavidSmolinski/project_lister_vue/tree/master)
 - ReactJS (web development)
     - [project lister](https://davidsmolinski.github.io/project_lister/) [Github](https://github.com/DavidSmolinski/project_lister/tree/master)
     
