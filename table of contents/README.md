@@ -91,9 +91,6 @@ Python
     - seaborn
     - timestamp, datetime, time series
     - statistics
-    - matplotlib
-    - seaborn
-    - timestamp, datetime, time series
     - sql (sqlite3)
     - Jupyter Notebooks
     - data cleaning
